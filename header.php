@@ -1,5 +1,17 @@
 <?php get_template_part('head'); ?>
 <body <?php body_class(); ?>>
+   <style>
+      #site-title {
+         display: block;
+         position: relative;
+         width: 33.3%;
+         min-height: 42px;
+         text-align: center;
+         margin: 0 auto;
+      }
+
+      
+   </style>
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
 <section id="branding">
