@@ -13,7 +13,7 @@ a {
 }
 
 h1 {
-   font-size: 33px;
-   font-weight: bold;
-   text-transform: uppercase;
+   font-size: 33px !important;
+   font-weight: bold !important;
+   text-transform: uppercase !important;
 }
