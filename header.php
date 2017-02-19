@@ -1,16 +1,26 @@
 <?php get_template_part('head'); ?>
 <body <?php body_class(); ?>>
    <style>
+      #header {
+         display: block;
+         position: relative;
+         height: 99px;
+      }
+
       #site-title {
          display: block;
          position: relative;
-         width: 33.3%;
+         width: 51%;
          min-height: 42px;
          text-align: center;
          margin: 0 auto;
       }
 
-      
+      #site-title h1 a {
+         color: #f9d531 !important;
+      }
+
+
    </style>
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
